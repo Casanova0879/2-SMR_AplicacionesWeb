@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de contactos</title>
+</head>
+<body>
+    <h1> Pagina de contacto</h1>
+    <a href="ejercicio1.html"> Volver</a><br>
+    <img src="img/2025100818440339559.webp" alt="Imagen Vandelvira" width="400px" height="400px" title="Davante">
+<br><br><br><br><br>
+<form action="datos.php" method="post">
+        <Fieldset>
+            <legend> Formulario datos personales</legend>
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" name="Nombre" value="Alvaro"><br>
+    <label> Apellidos</label>
+    <input type="text" id="Apellidos" name="Apellidos" placeholder="Escriba aqui..."><br>
+    <label>Edad</label>
+    <input type="number" id="Edad" name="Edad"><br>
+    <label>Contraseña</label>
+    <input type="password" id="Contraseña" name="Contraseña"><br>
+        </Fieldset>
+    
+        <fieldset>
+            <legend>Lista despleglable</legend>
+         <select name="lista">
+         <option value="modulo1">Sistemas operativos en red</option><br>
+         <option value="modulo2">Fundamentos de programacion</option><br>
+         <option value="modulo3">Aplicaciobes web</option><br>
+         </select>
+        </fieldset>
+    <fieldset>
+        <legend> Listado de la compra</legend>
+        <input type="checkbox" id="elemento1" name="elemento1" value="leche">
+        <label for="elemento1">Caja de la leche</label><br>
+        <input type="checkbox" id="elemento2" name="elemento2" value="Pan" checked="true">
+        <label for="elemento2">Pan</label><br>
+        <input type="checkbox" id="elemento3" name="elemento3" value="Huevos">
+        <label for="elemento3">Huevos</label><br>
+    </fieldset>
+    <br>
+    <label for="comentario">Comentarios:</label><br>
+    <textarea id="comentario" name="comentario" rows="10"cols="40"></textarea><br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+   </form>
+</body>
+</html>
