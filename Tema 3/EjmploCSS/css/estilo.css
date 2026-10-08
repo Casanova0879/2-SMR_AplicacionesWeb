@@ -2,11 +2,19 @@
 CSS de mi página web de Álvaro
 */
 
+body{
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url("../img/davante.png");
+   /*background-repeat: no-repeat;*/ 
+}
+
 h1{
     color: navy;
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-style: wavy;
+    text-align: center;
 }
 
 
@@ -17,4 +25,46 @@ color: teal;
 
 a{
     text-decoration: none;
+}
+
+#titulo{
+    color: gray;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.favorito{
+    color: red;
+    font-weight: bold;
+
+}
+
+.listaA{
+    color: white;
+    background-color: teal;
+    margin: 5px;
+}
+
+.listaB{
+    background-color: indigo;
+    color: white;
+}
+.curso{
+    border: 2px solid teal;
+    border-radius:  10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    background-color: orange;
 }
