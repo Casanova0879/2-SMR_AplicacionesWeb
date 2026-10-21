@@ -5,3 +5,300 @@
 
 /* Escribe aquí tu CSS. Recuerda: cada regla con un comentario
    que explique, con tus palabras, para qué sirve. */
+
+   /* Práctica 2  Club de Informática     Álvaro Casanova Benavides    2ºSMR*/
+
+
+/*Doy a toda la página una fuente, un color de texto y un fondo claro */
+
+#body {
+    font-family: Arial, "Segoe UI", sans-serif;
+    color: #222222;
+    background-color: #f4f4f4;
+}
+
+/* Hago que la cabecera tenga fondo oscuro, texto claro y esté centrada */
+#cabecera {
+    background-color: #12294a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Pongo el subtítulo en cursiva y versalitas para diferenciarlo del título*/
+.subtitulo {
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+/* Doy al menú un fondo y centro sus enlaces*/
+nav {
+    background-color: #12294a;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Convierto los enlaces del menú en botones*/
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #00a99d;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Cambio el color del botón cuando el ratón está encima*/
+nav a:hover {
+    background-color: #008a80;
+}
+
+/*Darle formato a la tabla, bordes, margenes color, etc..*/
+.Tabla{
+background-color: rgb(246, 246, 246);
+border: 2px solid #008a80;
+padding: 20px;
+margin: 30px auto;
+border-radius: 20px;
+width: 95%;
+
+}
+/*Centrar tabla y bordes*/
+table{
+width: 90%;
+margin: 20px;
+border-collapse: collapse;
+
+}
+/* Borde simple y rellenar celdas */
+th,td{
+   border: 1px solid cadetblue;
+   padding: 10px;
+   text-align: left;
+
+}
+/* Cabezera azul y letras blancas*/
+th{
+   background-color: #12294a;
+   color: white;
+   font-weight: bold;
+
+}
+/* Resaltar el titulo de encima de la tabla*/
+caption{
+   color: cadetblue;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 10px;
+}
+
+
+/* Uso una lista de fuentes para toda la web y pongo texto oscuro sobre un fondo claro */
+body {
+    font-family: Arial, "Segoe UI", sans-serif;
+    color: #263238;
+    background-color: rgb(238, 243, 248);
+    margin: 0;
+}
+
+/*Cabecera con fondo azul oscuro y centro su contenido */
+#cabecera {
+    background-color: #12294a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Subtítulo con cursiva y lo centro */
+.subtitulo {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Pongo un fondo al menú y centro los enlaces */
+nav {
+    background-color: #203d60;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Hago que los enlaces del menú parezcan botones con espacio interior y esquinas redondeadas */
+nav a {
+    display: inline-block;
+    background-color: #007f78;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+/* Cambio el fondo de los enlaces del menú al pasar el ratón */
+nav a:hover {
+    background-color: #005c57;
+}
+
+/* Doy color y subrayado a los títulos */
+h2 {
+    color: #12294a;
+    text-decoration: underline;
+}
+
+/* Hago los párrafos más cómodos de leer con espacio entre líneas */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Creo una caja clara y centrada para hacer cada sección */
+.seccion {
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #c8d4df;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px auto;
+}
+
+/* Limito el ancho del formulario y lo centro */
+form {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #c8d4df;
+    border-radius: 10px;
+}
+
+/* Separo los grupos de campos con un borde redondeado y espacio por dentro y fuera */
+fieldset {
+    border: 2px solid #007f78;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+/* Título con color y negrita */
+legend {
+    color: #12294a;
+    font-weight: bold;
+    background-color: ;
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+/* Coloco las etiquetas de los datos personales encima de sus campos */
+label[for="nombre"],
+label[for="email"],
+label[for="clave"],
+label[for="curso"],
+label[for="comentarios"] {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Doy el mismo aspecto a los campos de escritura y a la caja de comentarios */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #899ba8;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    color: #263238;
+    font-family: Arial, "Segoe UI", sans-serif;
+    font-size: 16px;
+}
+
+/* Resalto el borde y aclaro el fondo */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007f78;
+    background-color: white;
+}
+
+/* Pongo cada opción de actividad en una línea manteniendo su casilla al lado del texto */
+label[for="montaje"],
+label[for="wifi"],
+label[for="web"],
+label[for="torneo"] {
+    display: inline-block;
+    width: 85%;
+    margin: 8px 0;
+}
+
+/* Separo las opciones de turno y dejo cada una en su línea */
+label[for="tarde"],
+label[for="viernes"] {
+    display: inline-block;
+    width: 85%;
+    margin: 8px 0;
+}
+
+/* Doy a los botones texto claro, esquinas redondeadas y que apareca cuando pasas el raton que se puede pulsar */
+button {
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Boton de enviar vedrde */
+button[type="submit"] {
+    background-color: #007f78;
+}
+
+/* Oscurezco el boton de enviar */
+button[type="submit"]:hover {
+    background-color: #005c57;
+}
+
+/* Boton de borrar rojo */
+button[type="reset"] {
+    background-color: #b33939;
+}
+
+/* Oscurezco el botón de borrar cuando se pasa el raton */
+button[type="reset"]:hover {
+    background-color: #872b2b;
+}
+
+/* Doy al pie un fondo oscuro y texto claro */
+#pie {
+    background-color: #12294a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Centro el párrafo del pie y asi no sale justificado */
+#pie p {
+    text-align: center;
+}
+
+/* Mantengo visible el enlace del pie sobre el fondo oscuro */
+#pie a {
+    color: white;
+}
+
+/* Resalto el enlace del pie cuando paso el ratón y asi se ve */
+#pie a:hover {
+    color: #8ee5db;
+}
