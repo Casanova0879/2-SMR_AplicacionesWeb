@@ -15,6 +15,7 @@
     font-family: Arial, "Segoe UI", sans-serif;
     color: #222222;
     background-color: #f4f4f4;
+
 }
 
 /* Hago que la cabecera tenga fondo oscuro, texto claro y esté centrada */
@@ -23,6 +24,9 @@
     color: white;
     text-align: center;
     padding: 25px;
+    background-image: url(../img/images.jpg);
+
+    
 }
 
 /* Pongo el subtítulo en cursiva y versalitas para diferenciarlo del título*/
@@ -30,6 +34,7 @@
     font-style: italic;
     font-variant: small-caps;
     font-size: 20px;
+   
 }
 
 /* Doy al menú un fondo y centro sus enlaces*/
@@ -302,3 +307,11 @@ button[type="reset"]:hover {
 #pie a:hover {
     color: #8ee5db;
 }
+/* Para centrar y cambiar la letra */
+.Aprende{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagen

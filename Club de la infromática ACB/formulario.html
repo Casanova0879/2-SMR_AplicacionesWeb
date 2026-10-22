@@ -12,7 +12,7 @@
 <body>
     <div id="cabecera">
     <h1>Club de Informática SMR</h1>
-    <p>Aprende, monta y repara con nosotros</p>
+    <p class="Aprende">Aprende, monta y repara con nosotros</p>
 </div>
     <nav>
         <a href="index.html">Inicio</a>
@@ -49,27 +49,30 @@
         <fieldset>
             <legend>Actividades</legend>
 
-            <input type="checkbox" id="montaje" name="actividad" value="montaje">
+            
             <label for="montaje">Montaje de un PC</label>
+            <input type="checkbox" id="montaje" name="actividad" value="montaje">
 
-            <input type="checkbox" id="wifi" name="actividad" value="wifi">
             <label for="wifi">Red Wi-Fi segura</label>
-
-            <input type="checkbox" id="web" name="actividad" value="web" checked>
+            <input type="checkbox" id="wifi" name="actividad" value="wifi">
+           
             <label for="web">Primera web con HTML</label>
-
-            <input type="checkbox" id="torneo" name="actividad" value="torneo">
+            <input type="checkbox" id="web" name="actividad" value="web" checked>
+            
             <label for="torneo">Torneo en red local</label>
+            <input type="checkbox" id="torneo" name="actividad" value="torneo">
+            
         </fieldset>
 
         <fieldset>
             <legend>Turno y comentarios</legend>
 
-            <input type="radio" id="tarde" name="turno" value="tarde" checked>
             <label for="tarde">Tarde</label>
-
-            <input type="radio" id="viernes" name="turno" value="viernes">
+            <input type="radio" id="tarde" name="turno" value="tarde" checked>
+            
+            
             <label for="viernes">Viernes por la mañana</label>
+            <input type="radio" id="viernes" name="turno" value="viernes">
 
             <label for="comentarios">¿Algo que debamos saber?</label>
             <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
