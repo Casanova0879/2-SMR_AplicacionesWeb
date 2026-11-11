@@ -7,7 +7,7 @@
 </head>
 <body>
     <!-- CAMBIA: pon tu nombre y apellidos -->
-    <h1>Práctica 3 de NOMBRE APELLIDOS</h1>
+    <h1>Álvaro Casanova</h1>
 
     <!-- ===== A1. Mi tarjeta ===== -->
     <div id="tarjeta">
@@ -26,10 +26,10 @@
 
     <!-- ===== A3. Modo noche y modo día ===== -->
     <div>
-        <h2>Modo noche / día</h2>
-        <input type="button" value="Modo noche" onclick="modoNoche()">
-        <input type="button" value="Modo día" onclick="modoDia()">
-        <p id="modo">Modo día activado</p>
+        <h2>noche / día</h2>
+        <input type="button" value="noche" onclick="Noche()">
+        <input type="button" value="día" onclick="Dia()">
+        <p id="modo">día activado</p>
     </div>
 
     <!-- ===== A4. Colores de la tarjeta ===== -->
@@ -37,7 +37,9 @@
         <h2>Colores de la tarjeta</h2>
         <input type="button" value="Verde" onclick="colorTarjeta()">
         <!-- AÑADE AQUÍ al menos 2 botones más con otros colores -->
-
+        <input type="button" value="Verde" onclick="colorTarjeta('green')">
+        <input type="button" value="Azul" onclick="colorTarjeta('blue')">
+        <input type="button" value="Naranja" onclick="colorTarjeta('orange')">
     </div>
 
     <!-- ===== A5. Botón que saluda ===== -->
