@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4 — JavaScript</title>
+</head>
+<body>
+    <!-- Identifico al autor de la práctica. -->
+    <h1>Práctica 4 de NOMBRE APELLIDOS</h1>
+    <!-- A1: esta tarjeta cambia cuando se carga el archivo JavaScript. -->
+    <div id="tarjeta">
+        <h2>Mi tarjeta</h2>
+        <p id="saludo">Cargando...</p>
+    </div>
+    <!-- A2: escribo un producto y el botón llama a anadir(). -->
+    <div>
+        <h2>Lista de la compra</h2>
+        <input type="text" id="producto" placeholder="Escribe un producto">
+        <input type="button" value="Añadir" onclick="anadir()">
+        <ul id="lista"></ul>
+    </div>
+    <!-- A3: estos botones cambian el modo de la página. -->
+    <div>
+        <h2>Modo noche / día</h2>
+        <input type="button" value="Modo noche" onclick="modoNoche()">
+        <input type="button" value="Modo día" onclick="modoDia()">
+        <p id="modo">Modo día activado</p>
+    </div>
+    <!-- A4: elijo el color del fondo de la tarjeta. -->
+    <div>
+        <h2>Colores de la tarjeta</h2>
+        <!-- Cada botón envía a la función el color que quiero aplicar. -->
+<input type="button" value="Verde" onclick="colorTarjeta('green')">
+<input type="button" value="Azul" onclick="colorTarjeta('blue')">
+<input type="button" value="Morado" onclick="colorTarjeta('purple')">
+    </div>
+    <!-- A5: este botón muestra el saludo. -->
+    <div>
+        <h2>Botón que saluda</h2>
+        <input type="button" id="botonSaludo" value="Salúdame" onclick="saludar()">
+    </div>
+    <!-- Cargo el script después de los elementos que va a modificar. -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -15,7 +15,25 @@
         // 2. Muestra un saludo con el nombre y el ciclo
         // 3. Muestra si es mayor de edad (18 o más) o menor de edad
 
-    ?>
+    
+    // Recojo los tres datos que llegan del formulario por POST
+    $nombre = $_POST["nombre"];
+    // intval convierte el texto de la edad en un número entero
+    $edad = intval($_POST["edad"]);
+    $ciclo = $_POST["ciclo"];
+
+    // Saludo con el nombre y el ciclo (el punto une textos)
+    echo "<p>Hola, " . $nombre . ". Te has inscrito en " . $ciclo . ".</p>";
+
+    // Si la edad es 18 o más es mayor de edad; si no, menor
+    if ($edad >= 18) {
+        echo "<p>Eres mayor de edad (" . $edad . " años).</p>";
+    } else {
+        echo "<p>Eres menor de edad (" . $edad . " años).</p>";
+    }
+?>
+
+    
 
     <p><a href="formulario.html">Volver al formulario</a></p>
 </body>

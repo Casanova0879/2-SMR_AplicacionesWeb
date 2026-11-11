@@ -1,0 +1,38 @@
+GUÍA PARA TERMINAR Y ENTREGAR
+
+1. Descomprime el ZIP. No trabajes dentro del archivo comprimido.
+2. Cambia NOMBRE APELLIDOS por tu nombre completo en javascript/index.html,
+   javascript/js/script.js y en los tres archivos de php/.
+3. Renombra practica3_nombre_apellido usando tu nombre y apellido, sin espacios ni tildes.
+4. Abre javascript/index.html con doble clic. Prueba A1-A5 y haz las capturas.
+5. Copia la carpeta php a C:\xampp\htdocs\ y renombra esa copia con tu nombre,
+   por ejemplo nombre_apellido. Enciende Apache en el panel de XAMPP.
+6. Abre http://localhost/nombre_apellido/formulario.html. Escribe tu nombre,
+   elige SMR y prueba edades 17, 18 y 20. Haz capturas de los resultados.
+   Entra siempre por el formulario: procesar.php espera recibir datos POST.
+7. Abre http://localhost/nombre_apellido/notas.php y haz la captura de B2.
+   No uses Live Server ni doble clic para PHP.
+8. Abre memoria_editable.docx. Cambia el nombre y la fecha de la portada,
+   y el nombre en los ejemplos de código. Sustituye cada recuadro de captura
+   por tus capturas reales. Revisa las explicaciones y comentarios y exprésalos
+   con tus palabras, como pide la actividad. El curso está puesto como 2º SMR.
+9. Exporta la memoria editada a PDF y reemplaza memoria.pdf. El PDF incluido
+   es un borrador SIN capturas y NO está listo para entregar.
+10. Si editas código en la copia de XAMPP, copia esos archivos actualizados
+    de vuelta a php/ dentro de la carpeta de entrega.
+11. Comprime practica3_nombre_apellido con javascript/, php/ y memoria.pdf.
+    Puedes dejar fuera esta guía y memoria_editable.docx de la entrega final.
+
+ACLARACIONES DEL ENUNCIADO
+Se conserva practica3_nombre_apellido porque ese es el nombre de entrega solicitado.
+Los títulos dicen Práctica 4. Para B2 se incluye notas.php, tal como pide el
+apartado detallado y el anexo. No se añaden notas.html ni media.php: aparecen
+solo en un árbol contradictorio y no corresponden al ejercicio B2 descrito.
+
+FUENTES Y ALCANCE
+Código basado en el Tema 2 (estructura HTML y formularios), el Tema 4
+(DOM, funciones, botones, variables, echo y formularios) y las indicaciones
+explícitas de esta actividad (.value, document.body, parámetro de color,
+comparaciones y fórmula de la media). No se usan bibliotecas ni métodos nuevos.
+Los documentos no afirman que se hayan realizado pruebas en tu equipo.
+Debes probarlo y aportar tus capturas; no se han inventado capturas.
