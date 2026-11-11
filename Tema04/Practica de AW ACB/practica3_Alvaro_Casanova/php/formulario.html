@@ -5,24 +5,25 @@
     <title>Inscripción</title>
 </head>
 <body>
-    <!-- CAMBIA: pon tu nombre y apellidos -->
-    <h1>Práctica 3 de NOMBRE APELLIDOS</h1>
-    <h2>Formulario de inscripción</h2>
 
+    <h1>Práctica 4 de Álvaro Casanova</h1>
+    <h2>Formulario de inscripción</h2>
+    <!-- Envío los datos a procesar.php por POST. -->
     <form action="procesar.php" method="post">
+        <!-- El nombre viaja con el name nombre. -->
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
-
+        <!-- La edad se convertirá a entero en PHP. -->
         <label for="edad">Edad:</label>
         <input type="number" id="edad" name="edad" required><br><br>
-
+        <!-- El ciclo seleccionado viaja con el name ciclo. -->
         <label for="ciclo">Ciclo:</label>
         <select id="ciclo" name="ciclo">
             <option value="SMR">SMR</option>
             <option value="ASIR">ASIR</option>
             <option value="DAM">DAM</option>
         </select><br><br>
-
+        <!-- Este botón envía el formulario. -->
         <input type="submit" value="Enviar">
     </form>
 </body>

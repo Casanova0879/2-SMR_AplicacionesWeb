@@ -2,7 +2,7 @@
 // Nombre y apellidos: Álvaro Casanova
 
 // ===== A1 =====
-// Busco el saludo y escribo mi presentación al cargar la página.
+// Mi presentación al cargar la página.
 document.getElementById("saludo").innerHTML = "Hola, me llamo Álvaro Casanova y estudio 2º SMR";
 // Cambio el texto y el fondo de la tarjeta.
 document.getElementById("tarjeta").style.color = "white";

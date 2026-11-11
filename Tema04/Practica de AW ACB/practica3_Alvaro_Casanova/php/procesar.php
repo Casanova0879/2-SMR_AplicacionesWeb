@@ -5,7 +5,7 @@
     <title>Inscripción recibida</title>
 </head>
 <body>
-    <!-- Muestro el nombre del autor de la práctica. -->
+    
     <h1>Práctica 4 de Álvaro Casanova</h1>
     <h2>Inscripción recibida</h2>
     <?php
