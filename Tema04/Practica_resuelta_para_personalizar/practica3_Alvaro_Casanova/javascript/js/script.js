@@ -1,9 +1,9 @@
 // Práctica 4 — JavaScript
-// Nombre y apellidos: NOMBRE APELLIDOS
+// Nombre y apellidos: Álvaro Casanova
 
 // ===== A1 =====
 // Busco el saludo y escribo mi presentación al cargar la página.
-document.getElementById("saludo").innerHTML = "Hola, me llamo NOMBRE APELLIDOS y estudio 2º SMR";
+document.getElementById("saludo").innerHTML = "Hola, me llamo Álvaro Casanova y estudio 2º SMR";
 // Cambio el texto y el fondo de la tarjeta.
 document.getElementById("tarjeta").style.color = "white";
 document.getElementById("tarjeta").style.backgroundColor = "teal";
@@ -44,6 +44,6 @@ function colorTarjeta(color) {
 // ===== A5 =====
 // Muestro mi saludo y después cambio el fondo del botón que he pulsado.
 function saludar() {
-    alert("Hola, soy NOMBRE APELLIDOS");
+    alert("Hola, soy Álvaro Casanova");
     document.getElementById("botonSaludo").style.backgroundColor = "orange";
 }

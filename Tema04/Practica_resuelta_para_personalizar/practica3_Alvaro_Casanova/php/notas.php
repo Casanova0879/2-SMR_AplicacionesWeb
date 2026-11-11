@@ -6,7 +6,7 @@
 </head>
 <body>
     <!-- Muestro el nombre del autor de la práctica. -->
-    <h1>Práctica 4 de NOMBRE APELLIDOS</h1>
+    <h1>Práctica 4 de Álvaro Casanova</h1>
     <h2>Mi nota media</h2>
     <?php
         // Guardo el módulo y las tres notas inventadas.

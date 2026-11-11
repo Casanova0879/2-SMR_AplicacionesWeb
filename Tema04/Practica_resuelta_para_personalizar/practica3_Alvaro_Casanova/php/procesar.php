@@ -6,7 +6,7 @@
 </head>
 <body>
     <!-- Muestro el nombre del autor de la práctica. -->
-    <h1>Práctica 4 de NOMBRE APELLIDOS</h1>
+    <h1>Práctica 4 de Álvaro Casanova</h1>
     <h2>Inscripción recibida</h2>
     <?php
         // Recojo los tres datos enviados por el formulario.
